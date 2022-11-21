@@ -1,16 +1,15 @@
 <template>
     <div>
-        <AppHeader />
+        <NavsTheHeader />
         <div id="main">
             <slot />
         </div>
-        <AppFooter />
+        <NavsTheFooter />
     </div>
 </template>
 
 <script setup>
-// import AppHeaderVue from '~~/components/AppHeader.vue';
-// import AppFooterVue from '~~/components/AppFooter.vue';
+
 </script>
 
 <style>
